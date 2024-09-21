@@ -1,0 +1,98 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display:flex;
+    background-color: gray;
+    justify-content: center;
+}
+#container{
+    display:flex;
+    flex-direction: column;
+    width:400px;
+    height:auto;
+    border:1px solid rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    background-color: orange;
+}
+h2{
+    color: white;
+    margin-top: 50px;
+}
+input{
+    width:80%;
+    height:50px;
+    border:none;
+    border-bottom: 1px solid gray;
+    background:transparent;
+    margin-bottom: 17px;
+    color:white;
+    padding-right: 20px;
+}
+input:focus{
+    outline: none;
+}
+input::placeholder{
+    color:white;
+}
+#name{
+    background:url("png-background/user.svg") no-repeat right;
+    background-size: 20px;
+    background-image:white;
+}
+#email{
+    background:url("png-background/mail.svg") no-repeat right;
+    background-size: 20px;
+    background-image:white;
+}
+#password{
+    background:url("png-background/key.svg") no-repeat right;
+    background-size: 20px;
+    background-image: white;
+}
+#password:placeHolder{
+    background-image: white;
+}
+#confirm{
+    background:url("png-background/key.svg") no-repeat right;
+    background-size: 20px;
+    background-image: white;
+}
+#confirm:placeHolder{
+    background-image: white;
+}
+#signup{
+    background-color:black;
+    color:white;
+    border:none;
+    width:80%;
+    height:10%;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+#signup:hover{
+    transition: 0.15s;
+    background-color:rgb(24, 24, 24);
+
+}
+p{
+    color:white;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    color:rgb(150, 145, 145);
+}
+a:active{
+    transition: 0.15s;
+    color:black;
+}

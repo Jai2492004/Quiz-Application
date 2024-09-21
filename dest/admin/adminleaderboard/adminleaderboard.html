@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="container">
+    <div id="topbar">
+        <p id="user">Admin</p>
+        <h2 id="head">Leaderboard</h2>
+        <div id="logout">
+            <p id="out">Logout</p>
+        <p id="mode"><span>Dark mode</span>
+          <label class="switch">
+            <input type="checkbox" id="darkModeToggle">
+            <span class="slider"></span>
+        </label>
+            </p>
+        </div>
+    </div>
+    <div id="main">
+       <div id="mainsub1">
+        <div id="topquiz">
+            <button id="back">< back</button>
+        <select  id="courses">
+            <option>Select course</option>
+        </select>
+    </div>
+        <div id="sub-main">
+            <table id="table1">
+            </table>
+        </div>
+    </div>
+    <div id="mainsub2">
+        <div id="mainsub21">
+            <h2>Edit Leaderboard</h2>
+        <label for="name">Name</label>
+        <input type="text" id="name">
+
+        <label for="score">Score</label>
+        <input type="text" id="score">
+
+        <label for="course">Course</label>
+        <input type="text" id="course">
+
+        <label for="date">Date</label>
+        <input type="text" id="date">
+    </div>
+    <div id="buttons1">
+        <button id="back2">Back</button>
+        <button id="save2">Save</button>
+    </div>
+</div>
+</div>
+</div>
+
+<script src="../../adminleaderboard.js"></script>
+</body>
+</html>

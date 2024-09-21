@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="topbar">
+            <p id="user">Name:</p>
+            <h2 id="head"></h2>
+            <div id="logout">
+                <p id="out">Logout</p>
+            <p id="mode"><span>Dark mode</span>
+              <label class="switch">
+                <input type="checkbox" id="darkModeToggle">
+                <span class="slider"></span>
+            </label>
+                </p>
+            </div>
+        </div>
+        <div id="main">
+            <div id="sub-main">
+                <div id="top">
+                <h2 id="heading"></h2>
+                <div class="timer-container">
+                    <span id="timer">00:00</span>
+                </div>
+            </div>
+            <p id="question"></p>
+            <div id="answer">
+                <button id="option1"></button>
+                <button id="option2"></button>
+                <button id="option3"></button>
+                <button id="option4"></button>
+            </div>
+            
+            <div id="change-button">
+                <button id="prev">prev</button>
+                <button id="next">next</button>
+                <button id="submit">Submit</button>
+            </div>
+              
+            <div id="score1"></div>
+            <button id="back"> < Back</button>
+            
+        </div>
+       
+    </div>
+    </div>
+    <script src="../../quizpage.js"></script>
+</body>
+</html>
